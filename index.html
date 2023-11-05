@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0">
+    <title>Welcome page</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles_f1.css">
+    <script src="static/js/script_f1.js"></script>
+</head>
+<body>
+<div id="clock"></div>
+    <div class="header">
+    <div class="ht">
+    <h1 class="title">Local Data center server</h1>
+    This is the local server for the Group if you are seeing this page outside the network please inform the admin
+    </div></div>
+    <div class='container'>
+    <div class='card'>
+        <h2>Sensors Data</h2>
+        <p>5 out of 8 sensors active</p>
+        <p>3 are turned of until PIR controller gets data</P>
+        </div>
+    <div class='card'>
+        <h2>Power supply status</h2>
+        <p>all 4 power supplies active</p>
+        <p> 4 power ok status</p>
+        </div>
+    <div class='card'>
+        <h2>Controllers</h2>
+        <p>3 out of 5 working</p>
+        <p>autonomous vehicle charging</p>
+        </div>
+     <div class='card'>
+        <h2>Database entries</h2>
+        <p>No new modifications</p>
+        </div>
+    </div>
+    <div class="containerf">
+    <div class="cardf">
+        <center>
+            <div class="custom-select">
+        <select name="role", id="role">
+            <option value="Admin">Admin</option>
+            <option value="Guest">Spectator</option>
+            </select>
+            </div>
+        </center>
+        <h1>Login</h1>
+        <div class="input-container">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" name="submit" value="Submit">Login</button>
+    </form>
+        <br><center>**Note**</center>
+        <br><center>Please Check your role before logging in if you don't have login id for required role contact site admin</center>
+    </div>
+    </div>
+    <div class="footer">
+        <center>Site is still under construction don't bother to exploit it</center>
+    </div>
+</body>
+</html>
