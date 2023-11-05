@@ -5,7 +5,7 @@ body{
     padding:0;
 }
 #clock{
-    position: fixed;
+    position: relative;
     top: 20px; /* Adjust the top position as needed */
     right: 20px; /* Adjust the right position as needed */
     background-color: #333;
